@@ -27,7 +27,7 @@ namespace StackStatic
             }
             else
             {
-                Console.WriteLine("La pila está llena. No se puede agregar más elementos.");
+                Console.WriteLine("The stack is full. Cannot add more elements.");
             }
         }
 
@@ -39,7 +39,7 @@ namespace StackStatic
             }
             else
             {
-                Console.WriteLine("La pila está vacía. No se puede sacar ningún elemento.");
+                Console.WriteLine("The stack is full. Cannot add more elements.");
                 return -1; // Valor de retorno predeterminado para indicar un error
             }
         }
